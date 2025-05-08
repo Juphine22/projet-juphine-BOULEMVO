@@ -1,0 +1,164 @@
+/* couleur noir au lien  */
+a {
+    color: black;
+}
+ /* span par emremplacer */
+
+ em {
+    color: #A5B4FC;
+ }
+
+ /* utiliser 2 ecritures principales gill sans et impact */
+
+ body {
+    font-family: 'Gill sans' Impact; 
+    background-color: #1f2039;
+    margin: 0;
+    box-sizing: border-box; 
+    color: white                                               !important;
+ }
+
+ /* style des titres h1 */
+
+ h1 {
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'impact';
+ }
+
+ /* style des paragraphes */
+
+ p {
+    font-size: 1.1em;
+    font-family: 'Gill sans';
+ }
+
+ /* style des listes ul */
+
+ ul {
+    font-size: 1em;
+    font-family: 'Gill sans';
+ }
+
+* {
+    font-size: 'Gill sans' impact;
+}
+
+ /* style des liens a */
+
+ a {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    font-size:'Gill sans' ;
+ }
+
+ /* couleurs des p, des listes et des titres h2 */
+
+ p ul h2 {
+    background-color: #f9F8FF;
+    color: #1f2039;
+ }
+
+ /* style de la classe cta */
+
+ .cta {
+    background: linear-gradient(#acaeed, #8E86B5);
+    font-family: 'Gill' sans-serif;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 20px;
+ }
+
+ /* souligner tous les liens */
+
+ a:hover { 
+    text-decoration: underline;
+ }
+
+ .cta:hover {
+    background: linear-gradient(#696484, #8788BA);
+    font-family: 'Gill' sans-serif;
+ }
+
+ /* reduire l'opacité des icones */
+
+ .icon-link:hover {
+    opacity: 0.5;
+ }
+
+ /* la tete de la page */
+
+ header {
+    background-color: #f5f5f5;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ footer {
+    background-color: #f5f5f5;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ /* section accueil */
+
+ .accueil-contenair {
+    /* padding: 80px;
+    margin: 20px;
+    width: 80%;
+    text-align: 500px; */
+    padding: 50px;
+    width: 600px;
+    margin: auto;
+ }
+
+ /* section a propos */
+
+ .a-propos-contenair {
+         border-right: 1px solid #A5B4FC;
+         border-bottom: 1px solid #8E86B5;
+         margin-bottom: 60px;
+        padding: 80px;
+        margin: auto;
+        width: 600px;
+        margin-bottom: 60px;
+        margin-top: 20px;
+
+    
+ }
+
+ nav {
+    text-align: right;
+    margin: 20px;
+ }
+
+ nav a {
+    text-decoration: none;
+    font-size: 1em;
+    font-family:'Gill' sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 600;
+    padding: 2px;
+ }
+ .intro {
+  
+    padding: 50px;
+    margin-top: 20px;
+ }
+
+ .services {
+       padding: 50px;
+        
+ }
+
+ .logo {
+    border-radius: 100;
+ }
+
